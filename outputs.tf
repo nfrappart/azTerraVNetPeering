@@ -21,7 +21,7 @@ output "RemoteVNetId" {
   value = azurerm_virtual_network_peering.TerraVNetPeering.remote_virtual_network_id
 }
 
-output "IsVirtualNetworkAcccessAllowed" {
+output "IsVirtualNetworkAccessAllowed" {
   value = azurerm_virtual_network_peering.TerraVNetPeering.allow_virtual_network_access
 }
 

@@ -24,7 +24,7 @@ variable "RemoteVNetId" {
 
 }
 
-variable "IsVirtualNetworkAcccessAllowed" {
+variable "IsVirtualNetworkAccessAllowed" {
   type    = string
   default = "false"
 

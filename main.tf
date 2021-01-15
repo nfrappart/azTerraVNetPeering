@@ -10,7 +10,7 @@ resource "azurerm_virtual_network_peering" "TerraVNetPeering" {
   resource_group_name           = var.RgName
   virtual_network_name          = var.LocalVNetName
   remote_virtual_network_id     = var.RemoteVNetId
-  allow_virtual_network_access  = var.IsVirtualNetworkAcccessAllowed
+  allow_virtual_network_access  = var.IsVirtualNetworkAccessAllowed
   allow_forwarded_traffic       = var.IsForwardedTrafficAllowed
   allow_gateway_transit         = var.IsGWTransitAllowed
   use_remote_gateways           = var.UseRemoteGW
